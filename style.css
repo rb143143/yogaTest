@@ -1,0 +1,139 @@
+:root{
+    --yellow:#f9d806;
+    --light-yellow:#ffee80;
+    --blue:#3f505a;
+    --nav-text:#46a1ab;
+    --black:#130f40;
+    --light-color:#666;
+    /* --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1); */
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+/* NavBar strat */
+.navbar{
+    background-color:var(--blue);
+}
+.navbar-expand .navbar-nav .nav-link {
+    color: var(--nav-text);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* NavBar End */
+
+/* Banner Strat */
+.logo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.logo img{
+    width: 244px;
+    margin-left:602px;
+    margin-top: 66px;
+    /* margin-bottom: 64px; */
+}
+.title{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute; 
+}
+.title img{
+    margin-top:222px;
+    margin-left: 289px;
+}
+.shape{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.shape img{
+    margin-top: 342px;
+    margin-left: 348px;
+}
+.tag{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.tag img{
+    margin-top:425px;
+    margin-left: 603px;
+}
+.body-text{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.body-text img{
+    margin-top: 482px;
+    margin-left: 291px;
+}
+.btn-1{
+    background-color: #fff;
+    position: absolute;
+    margin-top: 642px;
+    margin-left: 693px;
+    width: 100px;
+    height: 35px;
+    color:var(--black);
+    font-size: 18px;
+}
+/* Banner End */
+
+/* Section One Start */
+.one img{
+   
+}
+.title-1 h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-top: 133px;
+    margin-left: 424px;
+    margin-right: 412px;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec-shape-left{
+    margin-left: 325px;
+    margin-top: -58px;
+}
+.sec-shape-left img{
+    width: 180%;
+}
+.sec-shape-right{
+    margin-left: 1088px;
+    margin-top: -40px;
+}
+.sec-shape-line{
+  margin-left: 444px;
+}
+.sec-text-left p{
+    font-size: 25px;
+    color:var(--blue);
+}
+.sec-text-right p{
+    font-size: 25px;
+    color:var(--blue);
+}
+.sec-btn{
+    margin-top: 50px;
+    margin-left: 1065px;
+    height: 55px;
+    padding: 18px;
+    background-color: var(--blue);
+    color: #fff;
+}
+/* Section One End */
